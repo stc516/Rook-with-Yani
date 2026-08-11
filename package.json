@@ -7,6 +7,9 @@
     "packages/*"
   ],
   "scripts": {
+    "mobile": "npm --workspace @rook/mobile start",
+    "mobile:ios": "npm --workspace @rook/mobile run ios",
+    "mobile:android": "npm --workspace @rook/mobile run android",
     "test": "vitest run",
     "test:watch": "vitest",
     "typecheck": "tsc --noEmit"
